@@ -31,5 +31,36 @@ body {
   color: #C9E50C;
   font-family: 'open_sansbold', sans-serif;
   font-size:26px;
- 
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  float: left;
+  text-decoration: none;
+  boarder: 1px solid #ddd;
+  color: black;
+  padding: 8px 16px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  border: 1px solid #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:first-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
