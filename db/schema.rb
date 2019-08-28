@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 2019_08_18_055427) do
     t.integer "place_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
     t.string "picture"
   end
 
